@@ -1,5 +1,4 @@
 
-from numpy import number
 from pynput import mouse
 from pynput import keyboard
 import pyautogui
@@ -13,9 +12,9 @@ import threading
 #Finally it will make a pdf of all the images :)
 
 #Variables for the entire program, only these are meant to be modified!!!
-bookname = "Traditions and Incarnartion, foundation of Christian Theology"
-numberOfPages = int(404/2) # remember 1 whole "image" counts as 1 page
-pageFlipSpeed = 2
+bookname = "Test Name"
+numberOfPages = 120 # remember 1 whole "image" counts as 1 page
+pageFlipSpeed = 4
 pageTurnKey = "right" # This variable is based on pyautogui key mappings, see their documentation for details
 pageReturnKey = "left" #Since the program does not hold focus of the mouse, pages will turn when measuging the windows, this key will be pressed 3 times to return to the first page
 triggerKey = "c"
